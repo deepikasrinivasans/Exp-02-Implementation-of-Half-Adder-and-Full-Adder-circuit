@@ -69,8 +69,6 @@ endmodule
 ### HalfAdder
 ![waveform halfadder](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/abf5dded-4285-4488-ba22-16679088518f)
 ### FullAdder
-
-
-
+![WhatsApp Image 2023-09-01 at 9 52 01 AM](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/a1c0e734-cd6f-4b3c-b563-a4d591696acd)
 ### Result:
 Thus the Implementation of Half Adder and Full Adder circuit are studied and the truth table for different logic gates are verified.
