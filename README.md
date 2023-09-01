@@ -1,5 +1,5 @@
 ## NAME: DEEPIKA S
-## REGISTERNUMBER: 212222230028
+## REGISTER NUMBER: 212222230028
 # Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation of Half Adder and Full Adder circuit
