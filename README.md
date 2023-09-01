@@ -6,7 +6,7 @@ To design a half adder and full adder circuit and verify its truth table in Quar
 
 ### Equipments Required:
 Hardware – PCs, Cyclone II , USB flasherSoftware – Quartus prime
-Theory
+# Theory
 Adders are digital circuits that carry out addition of numbers.
 
 ### Half Adder
