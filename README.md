@@ -32,9 +32,10 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 Connect the supply (+5V) to the circuit Switch ON the main switch If the output is 1, then the led glows.
 ## PROGRAM:
-
+```
 Developed by: Deepika S
 RegisterNumber:  212222230028
+```
 # HalfAdder
 ```
 module Experiment03(A,B,S,C);
@@ -53,19 +54,19 @@ assign sum=a^b^c;
 assign carry=((a&b)|(b&c)|(c&a));
 endmodule
 ```
-## RTL Diagram:
+### RTL Diagram:
 # HalfAdder
 ![ex03 rtl viewer](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/406c2883-9d91-412b-844d-39cfadf2f22d)
 # FullAdder
 ![full adder rtl viewer](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/e616bce8-c93a-4084-9381-3fa835e55d3a)
 
-## TRUTH TABLE:
+### TRUTH TABLE:
 # HalfAdder
 ![halfadder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/64ec4ba5-ff81-4524-9f6e-270d74cdc2da)
 # FullAdder
 ![fulladder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/300df332-d8a8-4b11-b2fe-95875ac1a492)
-## OUTPUT WAVEFORM:
-# HAlfAdder
+### OUTPUT WAVEFORM:
+# HalfAdder
 ![waveform halfadder](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/abf5dded-4285-4488-ba22-16679088518f)
 # FullAdder
 
