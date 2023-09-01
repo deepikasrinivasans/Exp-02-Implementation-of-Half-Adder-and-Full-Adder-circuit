@@ -28,14 +28,14 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 #### Figure -02 FULL ADDER 
 
-### Procedure
+## PROCEDURE:
 
 Connect the supply (+5V) to the circuit Switch ON the main switch If the output is 1, then the led glows.
-### Program:
+## PROGRAM:
 
 Developed by: Deepika S
 RegisterNumber:  212222230028
-## HalfAdder
+# HalfAdder
 ```
 module Experiment03(A,B,S,C);
 input A,B;
@@ -44,7 +44,7 @@ assign S=A^B;
 assign C=A&B;
 endmodule
 ```
-## FullAdder
+# FullAdder
 ```
 module EX03(a,b,c,sum,carry);
 input a,b,c;
