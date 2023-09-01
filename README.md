@@ -1,12 +1,13 @@
+## NAME: DEEPIKA S
+## REGISTERNUMBER: 212222230028
 # Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
-# Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Implementation of Half Adder and Full Adder circuit
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
 ### Equipments Required:
-Hardware – PCs, Cyclone II , USB flasher
-Software – Quartus prime
+Hardware – PCs, Cyclone II , USB flasherSoftware – Quartus prime
 Theory
 Adders are digital circuits that carry out addition of numbers.
 
@@ -31,24 +32,46 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 ### Procedure
 
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
-If the output is 1, then the led glows.
-### 
-Program:
-/*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+Connect the supply (+5V) to the circuit Switch ON the main switch If the output is 1, then the led glows.
+### Program:
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+Developed by: Deepika S
+RegisterNumber:  212222230028
+## HalfAdder
+```
+module Experiment03(A,B,S,C);
+input A,B;
+output S,C;
+assign S=A^B;
+assign C=A&B;
+endmodule
+```
+## FullAdder
+```
+module EX03(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum=a^b^c;
+assign carry=((a&b)|(b&c)|(c&a));
+endmodule
+```
+## RTL Diagram:
+# HalfAdder
+![ex03 rtl viewer](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/406c2883-9d91-412b-844d-39cfadf2f22d)
+# FullAdder
+![full adder rtl viewer](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/e616bce8-c93a-4084-9381-3fa835e55d3a)
+
+## TRUTH TABLE:
+# HalfAdder
+![halfadder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/64ec4ba5-ff81-4524-9f6e-270d74cdc2da)
+# FullAdder
+![fulladder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/300df332-d8a8-4b11-b2fe-95875ac1a492)
+## OUTPUT WAVEFORM:
+# HAlfAdder
+![waveform halfadder](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/abf5dded-4285-4488-ba22-16679088518f)
+# FullAdder
 
 
-### TRUTH TABLE 
 
 ### Result:
+Thus the Implementation of Half Adder and Full Adder circuit are studied and the truth table for different logic gates are verified.
