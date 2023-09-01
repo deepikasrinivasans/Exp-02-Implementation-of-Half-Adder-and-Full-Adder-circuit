@@ -54,21 +54,21 @@ assign sum=a^b^c;
 assign carry=((a&b)|(b&c)|(c&a));
 endmodule
 ```
-### RTL Diagram:
-# HalfAdder
+## RTL Diagram:
+### HalfAdder
 ![ex03 rtl viewer](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/406c2883-9d91-412b-844d-39cfadf2f22d)
-# FullAdder
+### FullAdder
 ![full adder rtl viewer](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/e616bce8-c93a-4084-9381-3fa835e55d3a)
 
-### TRUTH TABLE:
-# HalfAdder
+## TRUTH TABLE:
+### HalfAdder
 ![halfadder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/64ec4ba5-ff81-4524-9f6e-270d74cdc2da)
-# FullAdder
+### FullAdder
 ![fulladder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/300df332-d8a8-4b11-b2fe-95875ac1a492)
-### OUTPUT WAVEFORM:
-# HalfAdder
+## OUTPUT WAVEFORM:
+### HalfAdder
 ![waveform halfadder](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/abf5dded-4285-4488-ba22-16679088518f)
-# FullAdder
+### FullAdder
 
 
 
