@@ -1,6 +1,6 @@
 ## NAME: DEEPIKA S
 ## REGISTER NUMBER: 212222230028
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp 03 Implementation of Half Adder and Full Adder circuit
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -59,7 +59,7 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Developed by: Deepika S
 RegisterNumber:  212222230028
 ```
-### HalfAdder
+### Half Adder
 ```
 module Experiment03(A,B,S,C);
 input A,B;
@@ -68,7 +68,7 @@ assign S=A^B;
 assign C=A&B;
 endmodule
 ```
-### FullAdder
+### Full Adder
 ```
 module EX03(a,b,c,sum,carry);
 input a,b,c;
@@ -78,20 +78,20 @@ assign carry=((a&b)|(b&c)|(c&a));
 endmodule
 ```
 ## RTL Diagram:
-### HalfAdder
+### Half Adder
 ![ex03 rtl viewer](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/406c2883-9d91-412b-844d-39cfadf2f22d)
-### FullAdder
+### Full Adder
 ![full adder rtl viewer](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/e616bce8-c93a-4084-9381-3fa835e55d3a)
 
 ## TRUTH TABLE:
-### HalfAdder
+### Half Adder
 ![halfadder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/64ec4ba5-ff81-4524-9f6e-270d74cdc2da)
-### FullAdder
+### Full Adder
 ![fulladder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/300df332-d8a8-4b11-b2fe-95875ac1a492)
 ## OUTPUT WAVEFORM:
-### HalfAdder
+### Half Adder
 ![waveform halfadder](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/abf5dded-4285-4488-ba22-16679088518f)
-### FullAdder
+### Full Adder
 ![WhatsApp Image 2023-09-01 at 9 52 01 AM](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/a1c0e734-cd6f-4b3c-b563-a4d591696acd)
 ### Result:
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
