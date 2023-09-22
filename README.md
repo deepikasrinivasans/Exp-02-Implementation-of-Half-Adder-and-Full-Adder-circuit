@@ -90,7 +90,8 @@ endmodule
 ![fulladder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/300df332-d8a8-4b11-b2fe-95875ac1a492)
 ## OUTPUT WAVEFORM:
 ### Half Adder
-![waveform halfadder](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/abf5dded-4285-4488-ba22-16679088518f)
+![Screenshot 2023-09-22 093939](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/b77c8903-3da1-4f31-91ca-4341080e9841)
+
 ### Full Adder
 ![WhatsApp Image 2023-09-01 at 9 52 01 AM](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/a1c0e734-cd6f-4b3c-b563-a4d591696acd)
 ### Result:
