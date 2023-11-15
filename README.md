@@ -72,6 +72,7 @@ RegisterNumber:  212222230028
 <br>
 <br>
 <br>
+<br>
 
 ### Half Adder
 ```
@@ -100,6 +101,16 @@ endmodule
 ## TRUTH TABLE:
 ### Half Adder
 ![halfadder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/64ec4ba5-ff81-4524-9f6e-270d74cdc2da)
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ### Full Adder
 ![fulladder truthtable](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/300df332-d8a8-4b11-b2fe-95875ac1a492)
 ## OUTPUT WAVEFORM:
@@ -110,6 +121,13 @@ endmodule
 ### Full Adder
 ![WhatsApp Image 2023-09-01 at 9 52 01 AM](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/a1c0e734-cd6f-4b3c-b563-a4d591696acd)
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ### Result:
