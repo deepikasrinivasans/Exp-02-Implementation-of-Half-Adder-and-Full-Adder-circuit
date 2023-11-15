@@ -122,6 +122,8 @@ endmodule
 <br>
 <br>
 <br>
+<br>
+<br>
 
 ## OUTPUT WAVEFORM:
 ### Half Adder
