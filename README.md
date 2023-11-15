@@ -63,6 +63,14 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Developed by: Deepika S
 RegisterNumber:  212222230028
 ```
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ### Half Adder
 ```
 module Experiment03(A,B,S,C);
