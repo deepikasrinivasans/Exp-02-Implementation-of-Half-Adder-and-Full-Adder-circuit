@@ -1,6 +1,10 @@
 ## NAME: DEEPIKA S
 ## REGISTER NUMBER: 212222230028
 # Exp 03 Implementation of Half Adder and Full Adder circuit
+## Date: 08.09.2023
+
+<br>
+
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -95,5 +99,8 @@ endmodule
 
 ### Full Adder
 ![WhatsApp Image 2023-09-01 at 9 52 01 AM](https://github.com/deepikasrinivasans/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119393935/a1c0e734-cd6f-4b3c-b563-a4d591696acd)
+
+<br>
+
 ### Result:
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
